@@ -37,9 +37,9 @@ This looking like a good idea in first place turns out be problematic as trains 
 <img src="https://github.com/bellmann-engineering/clean-code-homework/blob/39dab82b57f560f8d66664ec80edc78a6e7fb619/homework1/inheritance_smell.png" width=50% height=50%>
 
 ## Your Tasks
-1. Read and understand the following code: [inheritance_smell.cpp](https://github.com/bellmann-engineering/clean-code-homework/blob/b498ed8af38c3b67ff041f63b1f870eb425ad0e7/homework1/inheritance_smell.cpp) 
+1. Read and understand the following code: [inheritance_smell.pseudo](./inheritance_smell.pseudo) 
 2. What rule is violated when a child class removes _features_ from the base class it inherits from?
 3. What principle could you think of to fix the issue and why?
-4. Refactor the code ([inheritance_smell.cpp](https://github.com/bellmann-engineering/clean-code-homework/blob/b498ed8af38c3b67ff041f63b1f870eb425ad0e7/homework1/inheritance_smell.cpp)) accordingly.
+4. Refactor the code ([inheritance_smell.pseudo](./inheritance_smell.pseudo)) accordingly.
 
 
