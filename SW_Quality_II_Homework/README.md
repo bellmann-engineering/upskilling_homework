@@ -8,24 +8,20 @@ The system is being used successfully in cars, so it is not surprising that othe
 To "use" the Self Driving System we inherit from it:
 
 ```
-class Car : public SelfDrivingSystem
+Class Car:
+    Inherits SelfDrivingSystem
 ```
 
 The Interface we designed looks like this:
 
 ```
-class SelfDrivingSystem
-{
-    public:
-        virtual void goForward() 
-
-        virtual void goBackward()
-
-        virtual void turnLeft()
-
-        virtual void turnRight()
-        
-};
+Interface SelfDrivingSystem:
+    // Declaration of abstract methods,
+    // which means they have to implemented by the class that implements the interface.
+    Abstract Method goForward()
+    Abstract Method goBackwards()
+    Abstract Method turnLeft()
+    Abstract Method turnRight()        
 ```
 
 The railway developer came up with the idea of using the SelfDrivingSystem as a base because:
