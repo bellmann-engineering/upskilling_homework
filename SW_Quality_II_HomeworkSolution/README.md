@@ -8,7 +8,7 @@ You should favor multiple smaller interfaces in face of bigger ones; it is less 
 
 Breaking the LSP principle almost always leads to hard-to-find bugs.
 
-:point_right: Small sidestory here:
+:point_right: Short sidestory here:
 > Sometimes is hard to not violate the principle. For example in the .NET framework we can find that 
 > the `Array` class implements `IList` interface that has `Add` method. `Array.Add` invocation 
 > throws a `NotSupportedException`. Is it a clear violation of the _Liskov Substitution Principle_.
