@@ -1,90 +1,58 @@
-#include <iostream>
+Class SelfDrivingSystem:
+    // Virtual method declarations for movement, when a method is declared as virtual in a base class, it enables polymorphism, 
+    // which allows derived classes to override the function with their own implementation. 
 
-class SelfDrivingSystem
-{
-    public:
-        virtual void goForward() // default behaviour
-        {
-            std::cout << "Going forward." << std::endl;
-        }
+    Virtual Method goForward()
+        Output "Going forward."
 
-        virtual void goBackward()
-        {
-            std:: cout << "Going backwards." << std::endl;
-        }
+    Virtual Method goBackward()
+        Output "Going backwards."
 
-        virtual void turnLeft()
-        {
-            std::cout << "Turning left." << std::endl;
-        }
+    Virtual Method turnLeft()
+        Output "Turning left."
 
-        virtual void turnRight()
-        {
-            std::cout << "Turning right." << std::endl;
-        }
-};
+    Virtual Method turnRight()
+        Output "Turning right."
+End Class
 
-class Car : public SelfDrivingSystem
-{
-    public:
-        void goForward() override
-        {
-            std::cout << "Pushing pedal down." << std::endl;
-        }
-        
-        void goBackward() override
-        {
-            std::cout << "Step on brake pedal." << std::endl;
-        }
+Class Car extends SelfDrivingSystem:
+    Method goForward()
+        Output "Pushing pedal down."
 
-        void turnLeft() override
-        {
-            std::cout << "Steering left." << std::endl;
-        }
+    Method goBackward()
+        Output "Step on brake pedal."
 
-        void turnRight() override
-        {
-            std::cout << "Steering right." << std::endl;
-        }
+    Method turnLeft()
+        Output "Steering left."
 
-};
+    Method turnRight()
+        Output "Steering right."
+End Class
 
-class Train : public SelfDrivingSystem
-{
-    public:
-        void goForward() override
-        {
-            std::cout << "moving throttle down." << std::endl;
-        }
-        
-        void goBackward() override
-        {
-            std::cout << "moving throttle up." << std::endl;
-        }
+Class Train extends SelfDrivingSystem:
+    Method goForward()
+        Output "Moving throttle down."
 
-        void turnLeft() override
-        {
-            throw std::logic_error("no such function");
-        }
+    Method goBackward()
+        Output "Moving throttle up."
 
-        void turnRight() override
-        {
-            throw std::logic_error("no such function");
-        }
-};
+    Method turnLeft()
+        Raise logic_error with message "no such function."
 
-int main()
-{
-    Car z4roadster;
-    std::cout << "Car is " << std::endl;
-    z4roadster.goForward();
-    z4roadster.turnLeft();
+    Method turnRight()
+        Raise logic_error with message "no such function."
+End Class
 
-    std::cout << "---------------" << std::endl;
+Function main():
+    Car z4roadster
+    Output "Car is"
+    z4roadster.goForward()
+    z4roadster.turnLeft()
 
-    Train ice;
-    std::cout << "Train is " << std::endl;
-    ice.goForward();
-    ice.turnLeft();
+    Output "---------------"
 
-}
+    Train ice
+    Output "Train is"
+    ice.goForward()
+    ice.turnLeft()
+End Function
