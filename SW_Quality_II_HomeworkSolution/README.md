@@ -1,4 +1,4 @@
-# Clean Code: Homework 1 - Solution
+# # SW Quality II: Homework - Solution
 
 LSP (_Liskov Substitution Principle_) is violated when we try to remove features. `NotImplementedException` (or similar) is the biggest violation sign.
 
