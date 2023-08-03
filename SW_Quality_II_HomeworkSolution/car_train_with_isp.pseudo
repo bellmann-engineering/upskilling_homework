@@ -1,0 +1,48 @@
+Interface Driveable:
+    // Abstract method declarations for movement
+    Abstract Method goForward()
+    Abstract Method goBackward()
+End Interface
+
+Interface Turnable:
+    // Abstract method declarations for turning
+    Abstract Method turnLeft()
+    Abstract Method turnRight()
+End Interface
+
+Class Car Implements Driveable, Turnable:
+    Method goForward()
+        Output "Pushing pedal down."
+
+    Method goBackward()
+        Output "Step on brake pedal."
+
+    Method turnLeft()
+        Output "Steering left."
+
+    Method turnRight()
+        Output "Steering right."
+End Class
+
+Class Train Implements Driveable:
+    Method goForward()
+        Output "Moving throttle down."
+
+    Method goBackward()
+        Output "Moving throttle up."
+End Class
+
+Function main():
+    Car z4roadster
+    Output "Car is"
+    z4roadster.goForward()
+    z4roadster.turnLeft()
+
+    Output "---------------"
+
+    Train ice
+    Output "Train is"
+    ice.goForward()
+    ice.goBackward()
+    // ice.turnLeft(); would not work/compile
+End Function
