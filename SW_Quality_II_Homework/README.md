@@ -1,4 +1,4 @@
-# Clean Code: Homework 1
+# SW Quality II: Homework
 
 ## The Self Driving System Problem
 
