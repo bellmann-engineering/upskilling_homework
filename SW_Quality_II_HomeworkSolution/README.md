@@ -1,8 +1,8 @@
-# # SW Quality II: Homework - Solution
+# SW Quality II: Homework 2 - Solution
 
 LSP (_Liskov Substitution Principle_) is violated when we try to remove features. `NotImplementedException` (or similar) is the biggest violation sign.
 
-![UML](https://github.com/bellmann-engineering/clean-code-homework/blob/5a36e378dd84daf110bf62e0b21a47a056dd29de/homework1_solution/uml.png)
+![UML](./uml.png)
 
 You should favor multiple smaller interfaces in face of bigger ones; it is less likely to violate the principle (will talk more in Interface Segregation Principle)
 
@@ -23,8 +23,7 @@ A good approach would be the use ISP (_Interface Segregation Principle_):
 Since the problem was with TurnRight or Left, we can split the interface into `Turnable` and `Drivable` interfaces. 
 Now, objects can choose what they do and implement only the needed methods.
 
-![UML](https://github.com/bellmann-engineering/clean-code-homework/blob/5a36e378dd84daf110bf62e0b21a47a056dd29de/homework1_solution/uml_split.png
-)
+![UML](./uml_split.png)
 
 So why didn't I also break the `ITurnable` interface? I could have defined an `ITurnRight` and `ITurnLeft` interface. 
 Having the methods split into two interfaces would have added code complexity with zero benefits. This is how the principle might make your codebase too granular. 

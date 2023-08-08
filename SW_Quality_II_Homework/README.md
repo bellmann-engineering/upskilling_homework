@@ -1,4 +1,4 @@
-# SW Quality II: Homework
+# Clean Code: Homework 2
 
 ## The Self Driving System Problem
 
@@ -8,32 +8,31 @@ The system is being used successfully in cars, so it is not surprising that othe
 To "use" the Self Driving System we inherit from it:
 
 ```
-Class Car:
-    Inherits SelfDrivingSystem
+class Car:
+    Inherits Self DrivingSystem
 ```
 
 The Interface we designed looks like this:
 
 ```
 Interface SelfDrivingSystem:
-    // Declaration of abstract methods,
-    // which means they have to implemented by the class that implements the interface.
-    Abstract Method goForward()
-    Abstract Method goBackwards()
-    Abstract Method turnLeft()
-    Abstract Method turnRight()        
+        Abstract Method goForward() 
+        Abstract Method goBackward()
+        Abstract Method turnLeft()
+        Abstract Method turnRight()
+        
 ```
 
 The railway developer came up with the idea of using the SelfDrivingSystem as a base because:
 
-![UML](https://github.com/bellmann-engineering/clean-code-homework/raw/master/homework1/uml_idea.png)
+![UML](./uml_idea.png)
 
 This looking like a good idea in first place turns out be problematic as trains cannot turn left or right due to the fact that they are on rails.
 
-<img src="https://github.com/bellmann-engineering/clean-code-homework/blob/39dab82b57f560f8d66664ec80edc78a6e7fb619/homework1/inheritance_smell.png" width=50% height=50%>
+<img src="./inheritance_smell.png" width=50% height=50%>
 
 ## Your Tasks
-1. Read and understand the following code: [inheritance_smell.pseudo](./inheritance_smell.pseudo) 
+1. Read and understand the following pseudocode: [inheritance_smell.pseudo](./inheritance_smell.pseudo) 
 2. What rule is violated when a child class removes _features_ from the base class it inherits from?
 3. What principle could you think of to fix the issue and why?
 4. Refactor the code ([inheritance_smell.pseudo](./inheritance_smell.pseudo)) accordingly.
