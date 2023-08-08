@@ -12,5 +12,5 @@ Ok - let's get serious. While this may sound a bit extreme, it is rooted in a ge
 
 2. Identify three instances of design anomalies in a real-world automotive software application. Briefly describe each anomaly and its potential impact on the software's performance and maintainability.
 
-3. Identify and Describe Design Smells:
+3. Identify and describe design smells:
 Choose any software system you are familiar with (it doesn't have to be automotive-related) and identify three instances of design smells within the system. Describe each design smell in detail, explaining why it is considered a design issue and how it could potentially impact the maintainability, scalability, or overall quality of the software.
