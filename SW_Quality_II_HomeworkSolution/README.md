@@ -1,5 +1,12 @@
 # SW Quality II: Homework 2 - Solution
 
+## Your Tasks
+1. Read and understand the following pseudocode: [inheritance_smell.pseudo](./inheritance_smell.pseudo) 
+2. What rule is violated when a child class removes _features_ from the base class it inherits from?
+3. What principle could you think of to fix the issue and why?
+4. Refactor the code ([inheritance_smell.pseudo](./inheritance_smell.pseudo)) accordingly.
+
+
 LSP (_Liskov Substitution Principle_) is violated when we try to remove features. `NotImplementedException` (or similar) is the biggest violation sign.
 
 ![UML](./uml.png)

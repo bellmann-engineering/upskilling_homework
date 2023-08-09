@@ -2,6 +2,16 @@
 
 ## Driving Towards Code Excellence: Navigating Clean Code in Automotive Software
 
+## Your Tasks
+
+1. Write a short paragraph highlighting the connections between clean code and automotive performance. Explain how applying clean code principles can enhance software reliability and efficiency for vehicles. Use your own words.
+
+2. Identify three instances of design anomalies in a real-world automotive software application. Briefly describe each anomaly and its potential impact on the software's performance and maintainability.
+
+3. Identify and describe design smells:
+Choose any software system you are familiar with (it doesn't have to be automotive-related) and identify three instances of design smells within the system. Describe each design smell in detail, explaining why it is considered a design issue and how it could potentially impact the maintainability, scalability, or overall quality of the software.
+
+
 __Task 1:__
 
 Clean code and automotive performance share a fundamental link that goes beyond the lines of code. Just as a well-optimized engine ensures a vehicle's optimal functioning, clean code principles improve software reliability and efficiency in automotive applications. 
