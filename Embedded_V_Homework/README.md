@@ -27,7 +27,7 @@ The Car class should have the following features:
 
 Use the following UML class diagram as a template:
 
-![Alt text](image.png)
+<img src="./image.png" width="30%" alt="UML diagramm for car class" />
 
 In the `main` function of your program:
 
