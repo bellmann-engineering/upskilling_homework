@@ -32,22 +32,9 @@ Create a C program that generates the multiplication table for a given integer '
 | 5 x 10         | 50     |
 
 
-
 **Task 4: Prime Number Finder**
 
 Write a C program that prompts the user to enter a positive integer 'n'. Determine whether 'n' is a prime number or not. Use a `for` loop to iterate through potential divisors and an `if-else` structure to determine the primality of 'n'. Break the loop when a divisor is found.
-
-```mermaid
-graph TD
-    A[Enter a positive integer 'n'] -->|Initialize isPrime to true| B[Set isPrime = true]
-    B -->|i = 2| C[Check if i divides n evenly (n % i = 0)]
-    C -->|Yes| D[Set isPrime = false]
-    C -->|No| E[Increment i]
-    E --> C
-    D -->|Loop through i values| C
-    C -->|Finish loop| F[Display result: n is prime or not prime]
-    F
-```
 
 **Task 5: Password Validation**
 
