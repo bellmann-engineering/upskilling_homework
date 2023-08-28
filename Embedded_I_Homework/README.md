@@ -45,6 +45,8 @@ Develop an electricity cost calculator. The user inputs the daily consumption in
 
 Write a C program that can convert decimal numbers to octal (base 8) and hexadecimal (base 16). The user inputs a decimal number, and the program outputs its equivalent octal and hexadecimal representations.
 
+**Hint:** Check out printf's number formaters before you start actually converting from one system to the other: https://cplusplus.com/reference/cstdio/printf/
+
 Example:
 
 Input:
