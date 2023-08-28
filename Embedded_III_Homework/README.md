@@ -25,7 +25,7 @@ The function prototype could be this:
 Write a C program that calculates the time it takes for a car to reach a certain speed. Define functions to input the initial speed, target speed, and acceleration. The program should calculate and display the time it takes to reach the target speed in seconds.
 
 The formula is: 
-<img src="formula.png" alt="Formula" width="50%">
+<img src="formula.png" alt="Formula" width="30%">
 
 **Task 4: Smart Trip Planner**
 
