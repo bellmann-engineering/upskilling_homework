@@ -8,6 +8,8 @@
 
 Write a C program that generates a random number between 1 and 100. Allow the user to guess the number. Provide feedback if the guessed number is higher or lower than the generated number. Use a `do-while` loop to continue the game until the user guesses correctly or decides to quit.
 
+![Alt text](image.png)
+
 **Hint:** To generate a random number in C, use the `rand()` function from the `stdlib.h` library. Remember to seed the random number generator using `srand()` to ensure different random sequences each time the program runs.
 
 **Task 2: Even-Odd Checker**
