@@ -1,4 +1,4 @@
-# Embedded: Homework 1 - Solution
+# Embedded: Homework 2 - Solution
 
 How to compile and run the solutions:
 
