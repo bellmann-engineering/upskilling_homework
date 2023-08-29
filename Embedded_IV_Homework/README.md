@@ -40,7 +40,7 @@ Use dynamic memory allocation to archieve the dynamic board size.
 
 Don't forget to free the allocated memory in the end.
 
-**Hint:**
+**Hints:**
 - Use a 2D array to represent the game board. You can use characters ('X', 'O', ' ') to represent player moves and empty cells.
 - Utilize pointers to navigate through the board and update cells during player turns.
 - Implement functions for displaying the board, handling player moves, and checking the win condition.
