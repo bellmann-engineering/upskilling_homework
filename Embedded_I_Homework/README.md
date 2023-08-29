@@ -50,8 +50,8 @@ Write a C program that can convert decimal numbers to octal (base 8) and hexadec
 Example:
 
 Input:
-Number to convert: 26
+<blockquote>Number to convert: 26</blockquote>
 
 Output:
-Octal: 32
-Hexadecimal: 1A
+<blockquote>Octal: 32
+Hexadecimal: 1A</blockquote>
