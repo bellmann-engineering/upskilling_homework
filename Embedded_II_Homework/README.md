@@ -38,6 +38,10 @@ Create a C program that generates the multiplication table for a given integer '
 
 Write a C program that prompts the user to enter a positive integer 'n'. Determine whether 'n' is a prime number or not. Use a `for` loop to iterate through potential divisors and an `if-else` structure to determine the primality of 'n'. Break the loop when a divisor is found.
 
+> Prime numbers are numbers that have only 2 factors: 1 and themselves.
+> 
+> For example, the first 5 prime numbers are 2, 3, 5, 7, and 11.
+
 **Task 5: Password Validation**
 
 Design a C program that prompts the user to enter a password. The password must meet certain criteria: it should be between 5 and 10 characters and include at least one digit. Allow the user to make three attempts. Use a `do-while` loop and an `if-else` structure to validate the password and count the attempts.
