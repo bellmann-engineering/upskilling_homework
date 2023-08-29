@@ -11,8 +11,10 @@ In the following tasks, you will write C programs to implement various functiona
 Write a C program that can convert temperatures between Celsius and Fahrenheit. The user first selects the desired conversion unit:
 
 Choose:
-a) Celsius -> Fahrenheit
+<blockquote>a) Celsius -> Fahrenheit
+  
 b) Fahrenheit -> Celsius
+</blockquote>
 
 Use the following formulas for conversion:
 - °C = (°F - 32) * 5/9 (from Fahrenheit to Celsius)
