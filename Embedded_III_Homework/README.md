@@ -2,6 +2,10 @@
 
 ## C Programming Practice Tasks
 
+In our previous module, we learned about the concept of functions. Functions are essential building blocks in programming that allow us to encapsulate a series of instructions into a single, reusable unit. They enable us to modularize our code, making it more organized and easier to maintain. We covered topics like defining functions, passing arguments, and returning values, which are fundamental for creating efficient and well-structured programs.
+
+Now, let's transition to the homework exercise, where you can put your newfound understanding of functions into practice. This exercise provides a hands-on opportunity to engage with functions in practical coding scenarios. 
+
 ## Functions
 
 ## Onboard Car Function Exercises

@@ -2,9 +2,13 @@
 
 ## C Programming Practice Tasks
 
-In the following tasks, you will write C programs to implement various functionalities. These exercises will help you deepen your programming skills in C and apply different concepts.
+In the previous session we learned about Input, Output, Logic and control structures. We discussed how these structures enable us to control the flow of a program's execution based on conditions and decisions. We explored concepts like if statements and switch statements, which are crucial for creating programs that can make intelligent decisions and perform repetitive tasks efficiently.
 
-## Yours Tasks
+This homework will provide you with the opportunity to apply what you've learned about Console In- and Output as well as Logic and Control Structures in practical coding scenarios. 
+
+In the following tasks, you will write C programs to implement various functionalities. These exercises will help you deepen your programming skills in C.
+
+## Console Input and Output
 
 **Task 1: Temperature Conversion**
 

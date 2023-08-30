@@ -2,6 +2,10 @@
 
 ## C Programming Practice Tasks
 
+In recent sessions, we dived into the concept of pointers – a fundamental aspect of programming. Pointers offer a way to manipulate and work with memory addresses directly, providing a powerful tool for tasks like memory management and efficient data manipulation. We explored how pointers are declared, used to reference variables, and employed in dynamic memory allocation, all of which form the cornerstone of effective memory management in programs.
+
+This interactive coding game exercise introduces you to practical scenarios involving pointers, allowing you to engage directly with this concept. However, it's important to note that this exercise goes beyond pointers – you'll also find yourself applying the topics of logic and functions covered in previous sessions.
+
 ## Pointers
 
 ## Tic-Tac-Toe Game Exercise

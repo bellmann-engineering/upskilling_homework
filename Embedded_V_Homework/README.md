@@ -2,11 +2,15 @@
 
 ## C++ Programming Practice Tasks
 
+In recent modules, we explored the world of Object-Oriented Programming (OOP), a paradigm in software development. OOP helps us organize code like real-world things, making it easier to use, reuse, and manage. We learned about concepts like classes, objects, encapsulation, inheritance, and polymorphism, all of which are essential for creating robust and structured software systems.
+
+For this homework, you'll be tasked with creating a class based on a UML diagram. Your assignment involves defining methods and member variables within the class, as well as working directly with objects.
+
+Keep in mind that OOP is only available in C++, so we'll be using the g++ compiler instead of gcc for compiling.
+
 ## Object-Oriented Programming (OOP)
 
 ## Car Rental System Exercise
-
-In this exercise, we'll explore the concepts of Object-Oriented Programming (OOP) using C++. Keep in mind that OOP is only available in C++, so we'll be using the g++ compiler instead of gcc for compiling.
 
 Imagine we are developing a basic car rental system. We'll start by defining a class named Car to represent individual cars. 
 

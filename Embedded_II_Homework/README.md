@@ -2,6 +2,10 @@
 
 ## C Programming Practice Tasks
 
+In our previous session, we explored Looping and Conditional Statements. These are crucial programming tools that allow us to control how our code runs by making decisions and repeating tasks. We went over concepts like for loops, while loops, and if-else statements. These tools are essential for creating programs that can handle different situations and perform tasks over and over efficiently.
+
+Now, it's time to apply what you've learned in your homework. You'll have the chance to practice using Looping and Conditional Statements in real coding situations. The homework includes exercises where you'll use various types of loops and conditional statements. This practice will help you reinforce your understanding of creating flexible programs. It will also prepare you to build applications that can process data systematically and make choices based on specific conditions.
+
 ## Looping and Conditional Statements Exercises
 
 **Task 1: Number Guessing Game**
