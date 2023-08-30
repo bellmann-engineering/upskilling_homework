@@ -2,24 +2,86 @@
 #include <stdlib.h>
 #include <time.h>
 
+// Function to display the game board
 void displayBoard(char** board, int size) {
-    // Implement the function to display the game board
+    printf("\n");
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            printf(" %c ", board[i][j]);
+            if (j < size - 1) {
+                printf("|");
+            }
+        }
+        printf("\n");
+        if (i < size - 1) {
+            for (int j = 0; j < size; j++) {
+                printf("---");
+                if (j < size - 1) {
+                    printf("+");
+                }
+            }
+            printf("\n");
+        }
+    }
+    printf("\n");
 }
 
+// Function to check if the move is valid
 int isValidMove(char** board, int size, int row, int col) {
-    // Implement the function to check if the move is valid
+    return (row >= 0 && row < size && col >= 0 && col < size && board[row][col] == ' ');
 }
 
+// Function to mark a cell with the player's symbol
 void markCell(char** board, int size, int row, int col, char symbol) {
-    // Implement the function to mark a cell with the player's symbol
+    board[row][col] = symbol;
 }
 
+// Function to check if a player has won
 int checkWin(char** board, int size, char symbol) {
-    // Implement the function to check if a player has won
+    for (int i = 0; i < size; i++) {
+        int rowWin = 1, colWin = 1;
+        for (int j = 0; j < size; j++) {
+            if (board[i][j] != symbol) {
+                rowWin = 0;
+            }
+            if (board[j][i] != symbol) {
+                colWin = 0;
+            }
+        }
+        if (rowWin || colWin) {
+            return 1; // Win detected
+        }
+    }
+
+    int diagonal1Win = 1, diagonal2Win = 1;
+    for (int i = 0; i < size; i++) {
+        if (board[i][i] != symbol) {
+            diagonal1Win = 0;
+        }
+        if (board[i][size - i - 1] != symbol) {
+            diagonal2Win = 0;
+        }
+    }
+
+    if (diagonal1Win || diagonal2Win) {
+        return 1; // Win detected
+    }
+
+    return 0; // No win
 }
 
+// Function for AI opponent's move
 void aiMove(char** board, int size, char symbol) {
-    // Implement the function for AI opponent's move
+    int row, col;
+    do {
+        srand(time(NULL));
+        row = rand() % size;
+        col = rand() % size;
+    } while (!isValidMove(board, size, row, col));
+
+    printf("AI Opponent's move: %d %d\n", row + 1, col + 1);
+    markCell(board, size, row, col, symbol);
+    displayBoard(board, size);
 }
 
 int main() {
@@ -37,7 +99,7 @@ int main() {
 
     int currentPlayer = 1;
 
-    printf("Tic-Tac-Toe Game\nPlayer 1: X | Player 2: O\n\n");
+    printf("Tic-Tac-Toe Game\nPlayer 1: X | AI Opponent: O\n\n");
     displayBoard(board, size);
 
     int moves = 0;
@@ -69,7 +131,7 @@ int main() {
             moves++;
 
             if (checkWin(board, size, 'O')) {
-                printf("Player %d wins!\n", currentPlayer);
+                printf("AI Opponent wins!\n");
                 break;
             } else if (moves == size * size) {
                 printf("It's a draw!\n");

@@ -9,18 +9,21 @@ int main() {
     int guess, attempts = 0;
        
     do {
+        // Prompt user for a guess
         printf("Enter your guess (1-100): ");
         scanf("%d", &guess);
         attempts++;
         
+        // Check if the guess is lower than the target
         if (guess < targetNumber) {
-            printf("Higher!\n");
+            printf("Higher!\n"); // Provide feedback to guess higher
         } else if (guess > targetNumber) {
-            printf("Lower!\n");
+            printf("Lower!\n"); // Provide feedback to guess lower
         } else {
+            // Correct guess: display success message with number of attempts
             printf("Correct! You guessed the number %d in %d attempts.\n", targetNumber, attempts);
         }
-    } while (guess != targetNumber);
+    } while (guess != targetNumber); // Continue loop until correct guess
     
     return 0;
 }
