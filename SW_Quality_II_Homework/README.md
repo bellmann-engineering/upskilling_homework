@@ -1,5 +1,7 @@
 # Clean Code: Homework 2
 
+In the last session we learned about the first SOLID principles. In this exercise we want to deepen this knowledge by a analogy to some vehicles that either drive on road or rails.
+
 ## The Self Driving System Problem
 
 You are part of a software development team that has produced a very well Self Driving System for cars. 
