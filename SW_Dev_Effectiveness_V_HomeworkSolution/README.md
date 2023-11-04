@@ -1,4 +1,4 @@
-# Software Development Effectiveness: Homework 4 Solution
+# Software Development Effectiveness: Homework 5 Solution
 
 For working with a git reposiory the following workflow is needed.
 
