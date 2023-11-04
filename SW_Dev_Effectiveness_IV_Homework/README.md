@@ -9,10 +9,6 @@ Make sure you write only code that is covered by a testcase.
 
 ## Your Tasks
 
-# Exercise: AAA-Pattern and Unit Testing for an E-Commerce Shopping Cart
-
-## Objective
-
 Practice the AAA pattern and unit testing in C++ by creating a class for an e-commerce shopping cart and writing unit tests to ensure its functionality.
 
 ## Instructions
