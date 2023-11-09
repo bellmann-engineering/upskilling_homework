@@ -5,7 +5,7 @@
 In the last session, we learned about agile development with scrum. 
 Test your knowledge of Scrum with these 10 questions.
 
-You can look download and read the scrum guide here, if you're uncertain about something: https://www.scrum.org/resources/scrum-guide
+You can download and read the scrum guide here, if you're uncertain about something: https://www.scrum.org/resources/scrum-guide
 
 ## Quiz
 
