@@ -82,26 +82,26 @@ Each homework exercise is organized in its individual folder, and alongside each
 
 ## Software Patterns
 
-🎓 [SW Patterns I Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_I_Homework_Homework/README.md)
+🎓 [SW Patterns I Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_I_Homework/README.md)
 
-:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_I_Homework_HomeworkSolution/README.md)
-
----
-
-🎓 [SW Patterns II Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_II_Homework_Homework/README.md)
-
-:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_II_Homework_HomeworkSolution/README.md)
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_I_Homework_Solution/README.md)
 
 ---
 
-🎓 [SW Patterns III Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_III_Homework_Homework/README.md)
+🎓 [SW Patterns II Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_II_Homework/README.md)
 
-:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_III_Homework_HomeworkSolution/README.md)
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_II_HomeworkSolution/README.md)
 
 ---
 
-🎓 [SW Patterns IV Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_IV_Homework_Homework/README.md)
+🎓 [SW Patterns III Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_III_Homework/README.md)
 
-:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_IV_Homework_HomeworkSolution/README.md)
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_III_HomeworkSolution/README.md)
+
+---
+
+🎓 [SW Patterns IV Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_IV_Homework/README.md)
+
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_IV_HomeworkSolution/README.md)
 
 ---
