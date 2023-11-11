@@ -2,6 +2,10 @@
 
 ## Object-Oriented Programming Foundations Quiz
 
+In our recent session, we discussed the importance of design patterns, highlighting how they offer reusable solutions to common software design challenges. 
+We underscored the crucial role of Object-Oriented Programming (OOP) concepts, like encapsulation, inheritance, and polymorphism, in shaping effective and flexible design patterns. 
+These OOP principles are fundamental in building software systems that are maintainable, scalable, and modular.
+
 ## Question 1
 
 What is the main principle of Object-Oriented Programming?
