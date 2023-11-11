@@ -84,7 +84,7 @@ Each homework exercise is organized in its individual folder, and alongside each
 
 🎓 [SW Patterns I Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_I_Homework/README.md)
 
-:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_I_Homework_Solution/README.md)
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_I_HomeworkSolution/README.md)
 
 ---
 
