@@ -1,6 +1,6 @@
 # Patterns: Homework 3
 
-In the last session we learned about the factory method pattern and its benefits. It makes dependencies less by allowing the client code to create objects without specifying their concrete classes, thereby decoupling the instantiation of objects from the client code and promoting flexibility in object creation.
+In the last session we learned about the factory method pattern and its benefits. It reduces dependencies by allowing the client code to create objects without specifying their concrete classes, thereby decoupling the instantiation of objects from the client code and promoting flexibility in object creation.
 
 ## Exercise: Designing a GPS Class with Factory Method
 
