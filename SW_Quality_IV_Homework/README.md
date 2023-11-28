@@ -1,63 +1,103 @@
-# Clean Code: Homework 3
+# Clean Code: Homework 4
 
-In the last session we learned about the all 5 SOLID principles. In this exercise we want to refactor a given codebase.
+In the last session we learned about the problems that come with so called legacy code. 
 
 ## Background
 
-You are tasked with improving a logging system in a software project. The current implementation is not well-structured and does not adhere to SOLID principles. 
-Your goal is to refactor the code to make it more maintainable, scalable, and in compliance with SOLID principles.
+In this exercise, you will work on refactoring a legacy codebase named `OrderSystem` that lacks adherence to clean code principles. The provided code contains a `LegacySystem` class with various functionalities related to order processing. Your goal is to improve the code's readability, maintainability, and adherence to clean code principles.
 
-## Codebase Overview
+## Code Overview
 
-The current codebase has a `Logger` class responsible for logging messages to various outputs. However, the code violates SOLID principles in different aspects.
+The `OrderSystem` class represents an existing system with multiple responsibilities related to order processing. The goal is to refactor the code to make it more modular, following principles like Single Responsibility Principle (SRP) and other clean code practices.
 
 ## Tasks
 
 1. **Single Responsibility Principle (SRP):**
-   - Identify how the existing code violates the Single Responsibility Principle in the `Logger` class.
-   - Refactor the code to adhere to SRP.
+   - Identify how the existing code violates the Single Responsibility Principle in the `OrderSystem` class.
+   - Refactor the code to adhere to SRP by separating concerns.
 
-2. **Open/Closed Principle (OCP):**
-   - Assess whether the code supports the Open/Closed Principle.
-   - Refactor the code to make it more open for extension and closed for modification.
+2. **Code Duplication:**
+   - Identify any instances of code duplication in the `OrderSystem` class.
+   - Refactor the code to eliminate duplicated code and promote reusability.
 
-3. **Liskov Substitution Principle (LSP):**
-   - Evaluate if the codebase follows the Liskov Substitution Principle.
-   - Adjust the code to ensure that substituting derived classes for base classes does not alter the correctness of the program.
+3. **Modularity:**
+   - Assess the modularity of the code. Are there logical units that can be extracted into separate functions or classes?
+   - Refactor the code to improve modularity and encapsulation.
 
-4. **Interface Segregation Principle (ISP):**
-   - Identify any interfaces that are too large and violate the Interface Segregation Principle.
-   - Refactor the interfaces to follow ISP.
+4. **Naming Conventions:**
+   - Check the naming conventions used in the code. Are the variable and function names descriptive and self-explanatory?
+   - Refactor the code to improve naming conventions and enhance code readability.
 
-5. **Dependency Inversion Principle (DIP):**
-   - Investigate how dependency management is handled in the code.
-   - Refactor the code to adhere to the Dependency Inversion Principle.
-   
-   
+5. **Comments and Documentation:**
+   - Review the existing comments and documentation. Are they clear and helpful?
+   - Refactor or add comments/documentation to improve code understanding.
+
 ## Code
 
-### Logger Class
+### Original OrderSystem Class
 
 ```cpp
 #include <iostream>
-#include <fstream>
 #include <string>
 
-class Logger {
+class OrderSystem {
 public:
-    void logToConsole(const std::string& message) {
-        std::cout << "Log to console: " << message << std::endl;
+    // Process an incoming order
+    void processOrder(const std::string& order) {
+        validateOrder(order);
+        updateInventory(order);
+        generateOrderConfirmation(order);
+        sendNotification("Order processed successfully");
     }
 
-    void logToFile(const std::string& message) {
-        std::ofstream file("log.txt", std::ios::app);
-        if (file.is_open()) {
-            file << "Log to file: " << message << std::endl;
-            file.close();
-        }
+    // Generate an invoice for a processed order
+    void generateInvoice(const std::string& order) {
+        validateOrder(order);
+        calculateTotalAmount(order);
+        generateInvoiceDocument(order);
+        sendNotification("Invoice generated successfully");
     }
 
-    // Other methods for logging to different outputs...
+    // Send a notification with a custom message
+    void sendNotification(const std::string& message) {
+        logMessage(message);
+        // Additional logic for sending notifications, e.g., through email or messaging system.
+    }
 
-    // This class violates SOLID principles, especially SRP and OCP.
+private:
+    // Validate the incoming order
+    void validateOrder(const std::string& order) {
+        // Existing implementation for order validation
+        std::cout << "Validating order: " << order << std::endl;
+    }
+
+    // Update the inventory after processing an order
+    void updateInventory(const std::string& order) {
+        // Existing implementation for updating inventory
+        std::cout << "Updating inventory for order: " << order << std::endl;
+    }
+
+    // Generate a confirmation for a processed order
+    void generateOrderConfirmation(const std::string& order) {
+        // Existing implementation for order confirmation
+        std::cout << "Order confirmation generated for: " << order << std::endl;
+    }
+
+    // Calculate the total amount for generating an invoice
+    void calculateTotalAmount(const std::string& order) {
+        // Existing implementation for calculating the total amount
+        std::cout << "Calculating total amount for order: " << order << std::endl;
+    }
+
+    // Generate a document for the generated invoice
+    void generateInvoiceDocument(const std::string& order) {
+        // Existing implementation for invoice document generation
+        std::cout << "Invoice document generated for order: " << order << std::endl;
+    }
+
+    // Log a message (common method used by various functionalities)
+    void logMessage(const std::string& message) {
+        // Existing implementation for logging messages
+        std::cout << "Log: " << message << std::endl;
+    }
 };
