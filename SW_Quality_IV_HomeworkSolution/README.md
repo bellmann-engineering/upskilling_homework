@@ -4,7 +4,7 @@
 
 ## Background
 
-In this exercise, we'll be refactoring a legacy codebase named `OrderSystem` that lacks adherence to clean code principles. The provided code contains a `LegacySystem` class with various functionalities related to order processing. The goal is to improve the code's readability, maintainability, and adherence to clean code principles.
+We have refactored the `OrderSystem` that lacks adherence to clean code principles. The provided code contains a `OrderSystem` class with various functionalities related to order processing. The goal was it to improve the code's readability, maintainability, and adherence to clean code principles.
 
 ## Code Overview
 
