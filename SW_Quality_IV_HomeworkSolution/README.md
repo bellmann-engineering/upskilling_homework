@@ -1,6 +1,6 @@
 # Clean Code: Homework 4 Solution
 
-# Clean Code: Exercise - Refactoring Legacy Code
+## Clean Code: Exercise - Refactoring Legacy Code
 
 ## Background
 
