@@ -86,6 +86,8 @@ public:
 
 ### 3. Modularity
 
+To improve modularity, the refactored code introduces classes like OrderValidator, InventoryUpdater, and NotificationSender, each responsible for a specific aspect of the order processing system.
+
 #### Original Method:
 
 ```cpp
