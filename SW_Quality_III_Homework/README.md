@@ -4,7 +4,7 @@ In the last session we learned about the all 5 SOLID principles. In this exercis
 
 ## Background
 
-You are tasked with improving a logging system in a software project. The current implementation is not well-structured and does not adhere to SOLID principles. 
+You are asked to improve logging system in a software project. The current implementation is not well-structured and does not adhere to SOLID principles. 
 Your goal is to refactor the code to make it more maintainable, scalable, and in compliance with SOLID principles.
 
 ## Codebase Overview
