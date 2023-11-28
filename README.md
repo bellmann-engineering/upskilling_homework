@@ -47,6 +47,16 @@ Each homework exercise is organized in its individual folder, and alongside each
 :white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/SW_Quality_II_HomeworkSolution/README.md)
 
 ---
+🎓 [SW Quality 3 Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/SW_Quality_III_Homework/README.md)
+
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/SW_Quality_III_HomeworkSolution/README.md)
+
+---
+🎓 [SW Quality 4 Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/SW_Quality_IV_Homework/README.md)
+
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/SW_Quality_IV_HomeworkSolution/README.md)
+
+---
 
 ## Software Development Effectiveness
 
