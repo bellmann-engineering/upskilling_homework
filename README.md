@@ -114,4 +114,3 @@ Each homework exercise is organized in its individual folder, and alongside each
 
 :white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/Patterns_IV_HomeworkSolution/README.md)
 
----
