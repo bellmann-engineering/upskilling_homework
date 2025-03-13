@@ -116,3 +116,14 @@ Each homework exercise is organized in its individual folder, and alongside each
 
 ## CI / CD
 
+🎓 [CI/CD I Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/CICD_1_Homework/README.md)
+
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/CICD_1_HomeworkSolution/README.md)
+
+🎓 [CI/CD II Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/CICD_2_Homework/README.md)
+
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/CICD_2_HomeworkSolution/README.md)
+
+🎓 [CI/CD III Homework](https://github.com/bellmann-engineering/upskilling_homework/blob/master/CICD_3_Homework/README.md)
+
+:white_check_mark: [Solution](https://github.com/bellmann-engineering/upskilling_homework/blob/master/CICD_3_HomeworkSolution/README.md)
